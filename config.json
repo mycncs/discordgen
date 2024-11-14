@@ -1,0 +1,40 @@
+{
+    "token": "MTMwNjQ1MTE3MzA0MDk3OTk2OA.G2ljd9.VDfjoUgBD9lyMEoZi7BvvkdV8-72MS2aQgau70",
+    "guild-id": "1300390986156871821",
+
+    "stock-command-silent": false,
+    "remove-capture-from-stock": true,
+    "commands-give-cooldown": true,
+
+    "gen-channels": [1300390986878550079],
+    "admins": [1137736701767335948],
+    "roles": [
+        {
+            "id": 1306453217638613064,
+            "cooldown": 30,
+            "can-bulk-gen": true,
+            "bulk-gen-max": 5,
+            "gen-access": ["gen"]
+        }
+    ],
+
+    "messages": {
+        "noperms": "You do not have permissions to use this command.",
+        "wrongchannel": ":thinking: ",
+        "altsent": "Thank you for using CNC Gen",
+        "footer-msg": "github.com/mycncs"
+    },
+
+    "generate-settings": {
+        "gif-img-url": "https://media1.tenor.com/m/tM-b_68cljEAAAAd/playboi-carti-carti.gif"
+    },
+
+    "colors": {
+        "error": 16713025,
+        "success": 1288807,
+        "stock": 7229605
+    },
+
+    "_comment1": "Size for uploading stock. Default: 2097152 == 2mb",
+    "maximum-file-size": 2097152
+}
